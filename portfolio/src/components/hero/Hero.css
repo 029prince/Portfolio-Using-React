@@ -1,0 +1,134 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 20px 50px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.hero img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.hero h1 {
+    width: 80%;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    background: linear-gradient(267deg, #Da7c25 0%, #B923E1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    width: 60%;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.hero-action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.hero-connect,
+.hero-resume {
+    padding: 16px 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.hero-connect {
+    background: linear-gradient(267deg, #Da7c25 0%, #B923E1 100%);
+    color: white;
+}
+
+.hero-connect:hover {
+    border: 2px solid white;
+}
+
+.hero-resume {
+    border: 2px solid white;
+    color: white;
+}
+
+.hero-resume:hover {
+    border-color: #B423E1;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero p {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .hero img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+        width: 100%;
+    }
+
+    .hero p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .hero img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .hero-connect,
+    .hero-resume {
+        width: 100%;
+        max-width: 300px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 60px 10px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .hero img {
+        height: 200px;
+        width: 200px;
+    }
+}
