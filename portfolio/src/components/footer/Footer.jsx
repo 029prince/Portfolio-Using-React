@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-top-left">
           <h1 className="nav-logo">Prince Kumar</h1>
-          <p>Hi, I’m Prince Kumar, a Full Stack Developer and Graduate B.Tech final-year student (2025).</p>
+          <p>Hi, I’m Prince Kumar, a Full Stack Developer and Graduate B.Tech CSE student (2025).</p>
         </div>
         <div className="footer-top-right">
           <div className="footer-email-input">

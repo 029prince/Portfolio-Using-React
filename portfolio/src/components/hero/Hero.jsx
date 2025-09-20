@@ -9,7 +9,7 @@ const Hero = () => {
       <div id='home' className="hero">
         <img src={profile_img} alt="Profile" />
         <h1><span>I' am Prince Kumar,</span> FullStack Developer based in India</h1>
-        <p>Hi, I’m Prince Kumar, a Full Stack Developer and B.Tech final-year student (2025). I build responsive, user-friendly web applications using React.js, Node.js, Express, and MongoDB. I love solving real-world problems through code and constantly learning new technologies.</p>
+        <p>Hi, I’m Prince Kumar, a Full Stack Developer and Graduate B.Tech CSE student (2025). I build responsive, user-friendly web applications using React.js, Node.js, Express, and MongoDB. I love solving real-world problems through code and constantly learning new technologies.</p>
         <div className="hero-action">
           <div className="hero-connect">
             <AnchorLink className="anchor-link" offset={50} href="#contact">
