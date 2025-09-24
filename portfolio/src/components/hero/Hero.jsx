@@ -16,8 +16,15 @@ const Hero = () => {
               Connect with Me
             </AnchorLink>
           </div>
-          <div className="hero-resume">
-            Resume
+           <div className="hero-resume">
+            <a
+              href="https://drive.google.com/file/d/15daYw6RqrOGMKqQ8ZsiY6cvPw7HNg92R/view?usp=drivesdk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="anchor-link"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </div>
