@@ -115,3 +115,33 @@
     display: none;
   }
 }
+
+/* ---------- EXTRA SMALL DEVICES (Phones < 480px) ---------- */
+@media (max-width: 480px) {
+  .navbar {
+    margin: 15px 15px;
+  }
+
+  .nav-logo {
+    padding: 0px 10px;
+    font-size: 24px;
+  }
+
+  .nav-menu {
+    width: 80%;
+    padding: 30px 20px;
+    gap: 25px;
+  }
+
+  .nav-menu li {
+    font-size: 18px;
+  }
+
+  .nav-mob-icon {
+    width: 25px;
+  }
+
+  .nav-mob-close {
+    width: 22px;
+  }
+}

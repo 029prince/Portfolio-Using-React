@@ -1,7 +1,7 @@
-import project1_img from '../assets/project_1.svg'
+import project1_img from '../assets/project1.png'
 import project2_img from '../assets/project_02.png'
-import project3_img from '../assets/project_3.svg'
-import project4_img from '../assets/project_4.svg'
+import project3_img from '../assets/project3.png'
+import project4_img from '../assets/project4.png'
 import project5_img from '../assets/project_5.svg'
 import project6_img from '../assets/project_6.svg'
 
@@ -10,25 +10,25 @@ const mywork_data = [
         w_no: 1,
         w_name: "Portfolio Website",
         w_img: project1_img,
-        w_link: "https://your-blog-link.com"
+        w_link: "https://portfolio-using-react-neon.vercel.app/"
     },
     {
         w_no: 2,
-        w_name: "E-commerce Site",
+        w_name: "Quiz WebApplication",
         w_img: project2_img,
         w_link: "https://react-quiz-app-topaz-three.vercel.app/"
     },
     {
         w_no: 3,
-        w_name: "Blog Platform",
+        w_name: "SwaadStore Grocery WebApllication",
         w_img: project3_img,
-        w_link: "https://your-blog-link.com"
+        w_link: "https://swaad-store-hggu.vercel.app/"
     },
     {
         w_no: 4,
-        w_name: "Dashboard UI",
+        w_name: "Moviezone Website",
         w_img: project4_img,
-        w_link: "https://your-dashboard-link.com"
+        w_link: "https://moviezone-phi.vercel.app/"
     },
     {
         w_no: 5,
